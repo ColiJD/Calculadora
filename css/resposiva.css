@@ -1,0 +1,44 @@
+
+@media screen and (min-width:768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        background-color: #1B1B1B;
+
+    }
+    .contenedor {
+        width: 50%;
+        height: 100%;
+        border-radius: 0 0 20px 20px;
+        border: #404258 solid 5px;
+    }
+    .pantalla {
+        border: none;
+    }
+
+    .botones {
+        border: none;
+    }
+}
+@media screen and (min-width:1024px) {
+    body {
+        height: 100vh;
+        align-items: center;
+
+    }
+    .contenedor {
+        width: 30%;
+        height: 80%;
+        border-radius: 0 0 20px 20px;
+        border: #404258 solid 5px;
+        padding-bottom: 1.8rem;
+    }
+    .pantalla{
+        border: none;
+    }
+
+    .botones {
+        border: none;
+
+    }
+}

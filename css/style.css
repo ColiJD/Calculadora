@@ -1,0 +1,63 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #F0F0F0, #C0C0C0);
+    
+}
+
+.pantalla {
+    height: 250px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color:#343333;
+    color: #fff;
+    padding: 1.2rem;
+    font-size: 2.5rem;
+    border-radius: 0px 0px 20px 20px;
+    border:#404258 solid 5px;
+    margin-bottom: 0.5rem;
+
+}
+
+.botones {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-radius: 0 0 20px 20px;
+    border-bottom :#404258 solid 5px;
+    
+}
+
+.contenedor_numero {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+
+}
+
+.boton:last-child {
+    background-color: #F49D1A;
+}
+
+.boton {
+    width: 22%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 100%;
+    background-color: #404258;
+    cursor: pointer;
+}
+
+.especiales {
+    background-color: #B2B2B2;
+}
+
+.cero {
+    width: 45%;
+    border-radius: 50px;
+}
+
+input {
+    outline: none;
+}
